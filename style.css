@@ -36,6 +36,26 @@ h2{
   color:#E43A19;
 }
 
+#footer a:hover{
+  color: #E43A19;
+}
+
+#sidebar {
+  position: fixed;
+  background-color: #292F36;
+  width: 250px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+#page-content {
+  margin-left: 300px;
+}
+#sidebar li:hover{
+  background-color: blue;
+}
+
+
 a{
   text-decoration:  none;
 }
@@ -44,9 +64,7 @@ i{
   font-size: 19px;
 }
 
-a:hover{
-  color: #E43A19;
-}
+
 .main{
   text-align: center;
   width: 500px;
@@ -60,6 +78,7 @@ a:hover{
 
 .images-movie{
   width: 300px;
+  padding: 10px;
 }
 .list-inline li{
   font-family: 'Bangers', cursive;
@@ -68,6 +87,18 @@ a:hover{
   font-size: 20px;
 }
 
+.fas{
+  font-size: 50px;
+}
+.sidebar-icons ul{
+  text-align: center;
+  padding: 0;
+  list-style: none;
+}
+.sidebar-icons li{
+  padding: 30px 0;
+  transition: 0.3s;
+}
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
