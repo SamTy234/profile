@@ -1,0 +1,91 @@
+body{
+  background-color: #AA8080;
+}
+
+p{
+  color: #574A47;
+  font-family: 'Arial';
+  font-size: 18px;
+}
+
+h1{
+  color: #E43A19;
+  font-size: 40px;
+}
+
+h2{
+  color: #110B08;
+  font-family: 'Barlow Condensed', sans-serif;
+
+}
+
+#movie-header{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 40px;
+}
+
+#profile-pic{
+  border-radius: 150px;
+}
+#end-point{
+  text-decoration: underline;
+  color: #62008B;
+
+}
+#end-point:hover{
+  color:#E43A19;
+}
+
+a{
+  text-decoration:  none;
+}
+
+i{
+  font-size: 19px;
+}
+
+a:hover{
+  color: #E43A19;
+}
+.main{
+  text-align: center;
+  width: 500px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 900px;
+  margin: 30px auto;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1)
+}
+
+.images-movie{
+  width: 300px;
+}
+.list-inline li{
+  font-family: 'Bangers', cursive;
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 20px;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .main {
+    width: 700px;
+  }
+
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .main {
+    width: 500px;
+  }
+
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .main {
+    width: 300px;
+
+}
